@@ -13,6 +13,9 @@ p {
   font-weight: 400;
 }
 
+button {
+  font-size: small;
+}
 
 
 /* Navigation */
@@ -153,7 +156,8 @@ br {
 
 .selfportrait {
   width: 400px; 
-  margin-left: 30px;
+  margin-left: 40px;
+  margin-top: -20px;
 }
 
 circle {
