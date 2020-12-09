@@ -1,0 +1,182 @@
+/* Font styling */
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+}
+
+.links, button {
+    font-family: 'Assistant', sans-serif;
+  font-weight: 400;
+}
+
+
+
+/* Navigation */
+nav {
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav h1 {
+  flex-grow: 2;
+}
+
+nav a:link,
+nav a:visited {
+  color: black;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em;
+}
+
+nav a:focus {
+  color: turquoise;
+}
+
+nav a:hover, 
+nav a:active {
+  color: turquoise;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 700px) {
+  #education {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ #education .UXUI, #education .VCD, #education .BA {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #aboutme {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .welcome, .selfportrait {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  nav, #aboutme {
+  flex-direction: column;
+  }
+  #aboutme .selfportrait {
+    width: 100%;
+  }
+}
+
+
+/* I'm a ___ designer */
+body {
+  /* the following line fixes a blink in chrome https://code.google.com/p/chromium/issues/detail?id=108025 */
+  -webkit-backface-visibility: hidden;
+}
+
+
+/* About me */
+#aboutme {
+  position: relative;
+  padding: 20px 40px 40px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome {
+  margin-bottom: 30px;
+}
+
+.name {
+  margin-bottom: 50px;
+}
+
+.ima {
+  position: absolute;
+  margin-top: -40px;
+}
+
+.aboutme {
+  margin-bottom: 20px;
+  column-count: 2;
+  column-width: 200px;
+}
+
+br {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.knowme {
+  outline: none;
+  border: solid 2px paleturquoise;
+  position: absolute;
+  background-color: white;
+  padding: 5px 15px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.knowme:link,
+.knowme:visited {
+  color: white;
+  background-color: paleturquoise;
+}
+
+.knowme:focus {
+  color: white;
+  color: paleturquoise;
+}
+
+.knowme:hover, 
+.knowme:active {
+  color: white;
+  background-color: paleturquoise;
+}
+
+.selfportrait {
+  width: 400px; 
+  margin-left: 30px;
+  margin-top: -25px;
+}
+
+circle {
+  fill: paleturquoise;
+}
+
+
+/* Education */
+#education {
+  position: relative; 
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.UXUI, .VCD, .BA {
+  border: solid 2px paleturquoise;
+  border-radius: 10px;
+  margin: 0px 10px 10px 10px;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+}
+
+.UXUI img, .VCD img, .BA img {
+  border-radius: 50%;
+}
