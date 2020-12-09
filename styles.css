@@ -68,7 +68,7 @@ nav a:active {
   justify-content: center;
   }
   
-  .welcome, .selfportrait {
+  #aboutme .welcome, .selfportrait {
     width: 75%;
   }
 }
@@ -78,7 +78,7 @@ nav a:active {
   flex-direction: column;
   }
   #aboutme .selfportrait {
-    width: 100%;
+    width: 75%;
   }
 }
 
@@ -100,6 +100,7 @@ body {
 
 .welcome {
   margin-bottom: 30px;
+  width: 50%;
 }
 
 .name {
@@ -112,7 +113,7 @@ body {
 }
 
 .aboutme {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   column-count: 2;
   column-width: 200px;
 }
@@ -125,10 +126,11 @@ br {
 .knowme {
   outline: none;
   border: solid 2px paleturquoise;
-  position: absolute;
   background-color: white;
+  position: relative;
+  left: 85%;
+  margin-top: -50px;
   padding: 5px 15px;
-  margin-top: 5px;
   border-radius: 15px;
 }
 
@@ -152,7 +154,6 @@ br {
 .selfportrait {
   width: 400px; 
   margin-left: 30px;
-  margin-top: -25px;
 }
 
 circle {
