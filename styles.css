@@ -18,6 +18,33 @@ button {
 }
 
 
+/* Button styling */
+button {
+  outline: none;
+  border: solid 2px paleturquoise;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+button:link,
+button:visited {
+  color: white;
+  background-color: paleturquoise;
+}
+
+button:focus {
+  color: white;
+  color: paleturquoise;
+}
+
+button:hover, 
+button:active {
+  color: white;
+  background-color: paleturquoise;
+}
+
+
 /* Navigation */
 nav {
   background: none;
@@ -127,31 +154,9 @@ br {
 }
 
 .knowme {
-  outline: none;
-  border: solid 2px paleturquoise;
-  background-color: white;
   position: relative;
   left: 85%;
   margin-top: -50px;
-  padding: 5px 15px;
-  border-radius: 15px;
-}
-
-.knowme:link,
-.knowme:visited {
-  color: white;
-  background-color: paleturquoise;
-}
-
-.knowme:focus {
-  color: white;
-  color: paleturquoise;
-}
-
-.knowme:hover, 
-.knowme:active {
-  color: white;
-  background-color: paleturquoise;
 }
 
 .selfportrait {
