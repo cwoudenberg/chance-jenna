@@ -187,6 +187,24 @@ circle {
   justify-content: center;
 }
 
-.UXUI img, .VCD img, .BA img {
+.UXUIicon {
+  height: 150px;
+  width: 150px;
+  background: paleturquoise;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.VCDicon {
+  height: 150px;
+  width: 150px;
+  background: lightcoral;
+  border-radius: 50%;
+}
+
+.BAicon {
+  height: 150px;
+  width: 150px;
+  background: paleturquoise;
   border-radius: 50%;
 }
