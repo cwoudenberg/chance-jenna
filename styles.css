@@ -101,14 +101,23 @@ nav a:active {
   #aboutme .welcome, .selfportrait {
     width: 75%;
   }
+
+  #education .UXUI, #education .VCD, #education .BA {
+    width: 99%;
+  }
 }
 
 @media screen and (max-width: 550px) {
   nav, #aboutme {
   flex-direction: column;
   }
-  #aboutme .selfportrait {
+
+  #aboutme {
     width: 75%;
+  }
+
+  .selfportrait {
+    width: 100%;
   }
 }
 
@@ -186,13 +195,6 @@ circle {
   text-align: center;
   justify-content: center;
 }
-
-/* .UXUIicon {
-  height: 150px;
-  width: 150px;
-  background: paleturquoise;
-  border-radius: 50%;
-} */
 
 .UXUIicon {
   width: 200px;
