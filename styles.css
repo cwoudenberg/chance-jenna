@@ -87,7 +87,13 @@ nav a:active {
   }
   
  #education .UXUI, #education .VCD, #education .BA {
-    width: 99%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #education .UXUI .UXUIicon, #education .VCD .VCDicon, #education .BA .BAicon {
+    width: 200px;
   }
 }
 
@@ -197,26 +203,22 @@ circle {
 }
 
 .UXUIicon {
-  width: 210px;
+  width: 250px;
 }
 
 .bgcircle, .RTcircle {
-  fill: paleturquoise;
-}
-
-.screencircle {
-  fill: mediumaquamarine; 
+  fill: lightcyan;
 }
 
 .VCDicon {
   width: 250px;
 }
 
-.VCDcircle {
-  fill: mediumaquamarine;
+.screencircle, .VCDcircle {
+  fill: paleturquoise;
 }
 
-.VCD h2 {
+.UXUI h2, .VCD h2, .BA h2 {
   margin-top: -20px;
 }
 
