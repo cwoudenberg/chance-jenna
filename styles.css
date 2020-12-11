@@ -87,7 +87,7 @@ nav a:active {
   }
   
  #education .UXUI, #education .VCD, #education .BA {
-    width: 95%;
+    width: 99%;
   }
 }
 
@@ -191,13 +191,13 @@ circle {
   border: solid 2px paleturquoise;
   border-radius: 10px;
   margin: 0px 10px 10px 10px;
-  width: 25%;
+  width: 30%;
   text-align: center;
   justify-content: center;
 }
 
 .UXUIicon {
-  width: 200px;
+  width: 210px;
 }
 
 .bgcircle {
@@ -209,10 +209,15 @@ circle {
 }
 
 .VCDicon {
-  height: 150px;
-  width: 150px;
-  background: lightcoral;
-  border-radius: 50%;
+  width: 250px;
+}
+
+.VCDcircle {
+  fill: mediumaquamarine;
+}
+
+.VCD h2 {
+  margin-top: -20px;
 }
 
 .BAicon {
