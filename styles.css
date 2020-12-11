@@ -150,11 +150,13 @@ body {
 
 .name {
   margin-bottom: 50px;
+  font-size: 1.5em;
 }
 
 .ima {
   position: absolute;
   margin-top: -40px;
+  font-size: 1.5em;
 }
 
 .aboutme {
@@ -218,9 +220,10 @@ circle {
   fill: paleturquoise;
 }
 
-.UXUI h1, .VCD h1, .BA h1 {
+.UXUI h2, .VCD h2, .BA h2 {
   margin-top: -20px;
-  font-weight: lighter;
+  font-weight: 300;
+  font-size: 1.25em;
 }
 
 .BAicon {
